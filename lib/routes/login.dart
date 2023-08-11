@@ -103,7 +103,6 @@ class Login extends HookWidget {
                     }else if(!EmailValidator.validate(value)){
                       return "The email address provided is invalid.";
                     }
-
                     return null;
                   }
                 ),
